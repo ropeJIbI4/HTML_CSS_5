@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.center{
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.head_content{
+    background: #FFFFFF;
+    display: grid;
+    grid-template-columns: 310px 370px 310px;
+    justify-content: center;
+    gap: 60px;
+    padding: 140px 401px 125px 404px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.title_head{
+    margin-top: 25px;
+    margin-bottom: 17px;
+    font-size: 24px;
+    line-height: 28px;
+    }
+
+.text_head{
+    margin-bottom: 25px;
+    width: 310px;
+    height: 42px;
+    font-size: 15px;
+    text-align: left;
+    color: #666666; 
+}
+
+.head_link{
+    width: 64px;
+    height: 17px;
+}
+
+.top_content{
+    background: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 100px;
+    padding-left: 375px;
+    padding-right: 375px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title_top_content{
+    width: 579px;
+    height: 56px;
+    font-size: 45px;
+    line-height: 53px;
+    
+}
+
+.text_top_content{
+    width: 682px;
+    height: 48px;
+    text-align: center;
+    color: #666666;
+}
+
+.t_content{
+    margin-top: 31px;
+    padding-bottom: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+}
+
+.image_top{
+    width: 370px;
+    height: 270px;
+}
+
+.title_content{
+    display: flex;
+    text-align: center;
+    width: 370px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+
+.text_content{
+    display: flex;
+    text-align: center;
+    width: 310px;
+    height: 63px;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 39px;
+    margin-left: 30px;
+}
+
+.top_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
